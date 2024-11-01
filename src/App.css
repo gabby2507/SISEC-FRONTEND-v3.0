@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow: auto; 
+  height: 100vh; 
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1; 
+  position: relative; 
+  z-index: 9; 
+  overflow: auto; 
+}
+
+body::before {
+  content: "";
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://uem.mz/wp-content/uploads/slider/cache/d73e7eaaaa293758c8a10fc163d4e149/Slide-01-scaled.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(5px); 
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(4, 124, 74, 0.432);
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+}
+
+.headerback {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background: linear-gradient(90deg, rgba(249,216,85,1) 0%, rgba(4,124,74,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.header img {
+  width: 60px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-left: 1rem;
+  padding-top: 1.5rem;
+  color: #047C4A;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.foot {
+  position: relative;
+  top: 100%;
+  display: inline-block;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #555;
+  font-weight: 500;
+}
+
+.footer a {
+  color: #047C4A;
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.9rem; 
+  }
+}

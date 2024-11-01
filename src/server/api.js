@@ -1,0 +1,1 @@
+export default baseUrl='http://localhost:2050/api/v1/loginuser';

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+}
+
+.outform {
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: #fff;
+    width: 350px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container-login {
+    height: 240px;
+    padding: 40px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    border: 1.5px solid #047C4A;
+    position: relative;
+    text-align: center;
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    background-color: #047C4A;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px 10px 10px 30px; 
+    margin: 10px 0;
+    border: none; 
+    border-bottom: 1px solid #555; 
+    outline: none;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    background-color: transparent; 
+}
+
+input[type="password"] {
+    background-color: transparent;
+}
+
+.grupo-input1,
+.grupo-input2 {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555; 
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.lembrar-esqueceu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.esqueceu-senha {
+    color: red;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.esqueceu-senha:hover {
+    color: rgb(212, 0, 0);
+}
+
+.grupo-input {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 30px; 
+}
+
+.grupo-input button {
+    width: 75%; 
+    padding: 10px;
+    background-color: #047C4A;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #025036;
+}
+
+@media (max-width: 768px) {
+    .outform {
+        width: 90%;
+    }
+}

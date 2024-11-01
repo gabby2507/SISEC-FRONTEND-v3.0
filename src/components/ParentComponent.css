@@ -1,0 +1,64 @@
+
+.parent-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.diploma {
+    width: 100%;
+    max-width: 800px; 
+    background-color: white;
+    border: 1px solid #047C4A; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.diploma h3 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.diploma h4 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.diploma p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.generate-pdf-button {
+    background-color: #047C4A; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.generate-pdf-button:hover {
+    background-color:  #025036; 
+}

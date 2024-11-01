@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    z-index: 10;
+}
+
+.form-container {
+    /* position: relative; */
+    overflow: hidden;
+    /* top: -65px; */
+    margin-top: 5rem;
+}
+
+
+.emission-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #fff;
+    padding: 25px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%; 
+}
+
+.labelE {
+    width: 80%;
+    margin-bottom: 1rem; 
+    font-size: 1.545rem;
+    color: #047C4A;
+    font-weight: 200;
+    white-space: nowrap;
+}
+
+.input-select, .input-fieldE {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1.5px solid #047C4A;
+    border-radius: 5px;
+    font-size: 1rem;
+    color:#000;
+    background-color: #ffffff;
+}
+
+
+.input-fieldE:focus {
+    color: #555;
+    border-color: #047C4A;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 204, 85, 0.5); 
+}
+
+.input-select option:cursor {
+    color: #e23e3e;
+}
+
+.submit-buttonE {
+    padding: 12px 0;
+    background-color: #047C4A;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    width: 80%;
+}
+
+
+
+.submit-button:hover {
+    background-color: #022919;
+}
+
+@media (max-width: 768px) {
+    .emission-form {
+        padding: 20px 15px; 
+    }
+
+    .submit-button {
+        font-size: 0.9rem; 
+    }
+}
