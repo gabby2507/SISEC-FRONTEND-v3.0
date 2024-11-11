@@ -33,8 +33,8 @@ body {
     grid-column: span 2;
     font-size: 2rem;
     font-weight: 500;
-    color: #047C4A;
-    ;
+    /* color: #047C4A; */
+    color: #00924C;
     margin-bottom: 1.5rem;
     text-align: center;
 }
@@ -48,7 +48,7 @@ body {
 .input-field {
     width: 100%;
     padding: 12px;
-    border: 1.5px solid #047C4A;
+    border: 1.5px solid #00924C;
     border-radius: 5px;
     font-size: 1rem;
     color: #555;
@@ -57,7 +57,7 @@ body {
 
 .input-field:focus {
     color: #555;
-    border-color: #047C4A;
+    border-color: #00924C;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
 }
@@ -72,7 +72,7 @@ body {
 .submit-button,
 .back-button {
     padding: 12px 24px;
-    background-color: #047C4A;
+    background-color: #00924C;
     color: #fff;
     font-size: 1rem;
     border: none;

@@ -29,7 +29,7 @@ body {
     padding: 40px;
     padding-bottom: 100px;
     border-radius: 10px;
-    border: 1.5px solid #047C4A;
+    border: 1.5px solid #00924C;
     position: relative;
     text-align: center;
 }
@@ -37,7 +37,7 @@ body {
 .profile {
     width: 60px;
     height: 60px;
-    background-color: #047C4A;
+    background-color: #00924C;
     border-radius: 50%;
     position: absolute;
     top: -30px;
@@ -114,7 +114,7 @@ input[type="password"] {
 .grupo-input button {
     width: 75%; 
     padding: 10px;
-    background-color: #047C4A;
+    background-color: #00924C;
     color: white;
     border: none;
     border-radius: 6px;

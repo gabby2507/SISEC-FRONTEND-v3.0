@@ -2,7 +2,8 @@ import React from 'react';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import './certificate.css';
-import logo from './img/Emblema.png';
+// import logo from './img/Emblema.png';
+import UNIELITE from './img/EmblemaElite.png';
 
 // Função para converter números para palavras em tuga
 const numberToWords = (num) => {
@@ -48,14 +49,15 @@ const Certificate = ({ studentName, biNumber, directorName, courseName, startDat
     return (
         <div>
         <div id="certificate" className="certificate">
-            <img src={logo} alt="Logo da UEM" className="logo" />
-            <h2>UNIVERSIDADE EDUARDO MONDLANE</h2>
+            <img src={UNIELITE} alt="Logo da UNI-ELITE" className="logo"/>
+            {/* <img src={UNIELITE} alt="Logo da UNI-ELITE" className="logo"/> */}
+            <h2>UNIVERSIDADE ELITE</h2>
             <div className='DiplomaC'>Diploma</div>
             <div className="certificate-details">
                 <p>
                     Eu, <strong>{directorName}</strong>, 
                     <br />
-                    Reitor da Universidade Eduardo Mondlane,
+                    Reitor da Universidade Elite,
                     <br />
                     faço saber que
                     <br />
@@ -75,6 +77,13 @@ const Certificate = ({ studentName, biNumber, directorName, courseName, startDat
                     <br />
                 </p>
                 <p> Maputo, {currentDate}</p>
+            </div>
+
+            <div className="signature-section">
+                <p className='line1 line' >________________________</p>
+                <p className='line1' >O Reitor</p>
+                <p className='line2 line' >_________________________</p>
+                <p className='line2' >O Director da Faculdade</p>
             </div>
 
             
