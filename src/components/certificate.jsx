@@ -76,7 +76,7 @@ const Certificate = ({ studentName, biNumber, directorName, courseName, startDat
                     com a classificação de <strong>{grade} ({gradeInWords})</strong> valores.
                     <br />
                 </p>
-                <p> Maputo, {currentDate}</p>
+                <p  > Maputo, {currentDate}</p>
             </div>
 
             <div className="signature-section">
