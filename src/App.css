@@ -61,7 +61,8 @@ body::after {
   width: 100%;
   padding-bottom: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  background: linear-gradient(90deg, rgba(249,216,85,1) 0%, rgba(4,124,74,1) 100%, rgba(0,212,255,1) 100%);
+  /* background: linear-gradient(90deg, rgba(249,216,85,1) 0%, rgba(4,124,74,1) 100%, rgba(0,212,255,1) 100%); */
+  background: linear-gradient(270deg, rgba(0,146,76,1) 0%, rgba(89,213,89,1) 100%, rgba(89,213,89,1) 100%, rgba(31,134,75,0.5550595238095238) 100%, rgba(4,124,74,1) 100%);
 }
 
 .header img {
@@ -72,7 +73,8 @@ body::after {
   font-size: 2rem;
   margin-left: 1rem;
   padding-top: 1.5rem;
-  color: #047C4A;
+  /* color: #047C4A; */
+  color: #00924C;
   font-weight: bolder;
   margin-bottom: 20px;
   text-transform: uppercase;

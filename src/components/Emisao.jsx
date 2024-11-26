@@ -25,7 +25,7 @@ const Emisao = () => {
       
       console.log(studentNumber);
      
-      axios.get("https://localhost:2050/api/remote", {
+      axios.post("http://localhost:8989/api/student-data", {
         student_number: studentNumber,
       }).then(function (response) {
         console.log(response.data)

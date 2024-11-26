@@ -7,7 +7,7 @@
     height: 297mm;
     margin: 0 auto;
     padding: 30px;
-    background-image: url('./img/Diploma-PNG.png');
+    background-image: url('./img/Modelo-de-diploma.jpg');
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
@@ -17,7 +17,8 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
-    margin-bottom: 5rem;
+    margin-bottom: 15rem;
+    margin-top: 5rem;
 }
 
 .logo {
@@ -29,24 +30,50 @@
 
 .DiplomaC {
     font-family: 'Iglesia', sans-serif;
-    font-size: 8rem;
-    color: rgba(4, 124, 74, 0.8);
+    font-size: 6.5rem;
+    /* color: rgba(4, 124, 74, 0.8); */
+    color: #00924C;
 }
 
 h2 {
     text-align: center;
-    font-size: 1.7em;
-    font-family: 'Times New Roman', Times, serif;
-    color: #020f0a;
+    margin-top: 2rem;
+    font-size: 2.2em;
+    margin-bottom: 3.5rem;
+    /* color: #020f0a; */
+    color: #02213C;
 }
 
 .certificate-details p {
-    font-size: 1em;
-    width: 30rem;
+    font-size: 1.3em;
+    width: 35rem;
     text-align: center;
     line-height: 2em;
     margin: 10px 0;
-    color: #000;
+    color: #02213C;
+}
+
+.signature-section {
+    position: absolute;
+    bottom: 55px;
+    right: 112px;
+    text-align: center;
+    color: #02213C;
+    font-size: 1em;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.line1 {
+    position: relative;
+    bottom: 4.5rem;
+    padding: 0.4rem;
+}
+
+.line2 {
+    position: relative;
+    bottom: 1rem;
+    padding: 0.4rem;
 }
 
 #nometamanho {
@@ -57,7 +84,7 @@ h2 {
 }
 
 #generate-pdf-button {
-    margin-top: 100px;
+    margin: 6.5rem 0rem;
     padding: 10px;
     background-color: #047C4A;
     color: #fff;

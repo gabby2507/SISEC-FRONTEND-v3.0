@@ -140,6 +140,7 @@ const CertificateForm = ({ studentData }) => {
                     startDate={studentdados.dataInicio}
                     endDate={studentdados.dataFim}
                     grade={studentdados.mediaGlobal}
+                    reitorName = {studentdados.nomeReitor}
                 />
             )}
         </div>
